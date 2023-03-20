@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenshin Impekz</title>
+
+    <link rel="stylesheet" href="style_header.css">
+    <link rel="stylesheet" href="style_jumbotron.css">
+    <link rel="stylesheet" href="style_homeMain.css">
+    <link rel="stylesheet" href="style_footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo"> <img src="Assets/navbar/logo_genshin_impact.webp" alt="logo_genshin_impact"></a>
+
+        <ul class="navbar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="indexCharacter.html">Character</a></li>
+            <li><a href="indexMaps.html">Maps</a></li>
+            <li><a href="indexAbout.html">About</a></li> 
+        </ul>
+
+        <div class="register">
+            <a href="#register">Register</a>
+            <div class="bx-menu" id="menu-icon">
+                <a href="#"><i class="ri-menu-5-fill"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="jumbotron">
+        <div class="judul">
+            An Open-world <br>
+            Action RPG Game
+        </div>
+        <div class="download">
+                <a href="#">Download Now</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="new-character">
+            <h1 class="judul1">New Character</h1>
+            <img class="layer-1" src="Assets/home/dehya_png.png" alt="Dehya">
+            <h1 class="layer-2">NEW <br>CHARACTER</h1>
+            <div class="penjelasan-character">
+                <div class="nama">
+                    <img src="Assets/home/fire_symbol.png" alt="">
+                    <div class="nama2">
+                        <h1>Dehya</h1>
+                        <img src="Assets/home/star-removebg-preview.png" alt="5 Star">
+                    </div>
+                </div>
+                <hr class="hr1" size="2" width="260px" color="690BOE">
+                <div class="penjelasan-panjang">
+                    A member of the eremites, a mercenary organization that roams the sands of Sumeru. Valiant and Powerful, she enjoys great fame amongst her felloe eremites
+                </div>
+            </div>
+        </div> 
+        
+        <div class="new-weapon">
+            <h1 class="judul2">New Weapon</h1>
+            <img class="layer-1" src="Assets/home/sword_bg_remove.png" alt="">
+            <h1 class="layer-2">NEW <br>WEAPON</h1>
+            <div class="penjelasan-weapon">
+                <div class="nama-weapon">
+                    <img class="sword_logo" src="Assets/home/sword_logo_bg3.png" alt="Sword">
+                    <div class="nama-weapon2">
+                        <h1>Wolf's Gravestone</h1>
+                        <img src="Assets/home/star-removebg-preview.png" alt="5 Star">
+                    </div>
+                </div>
+                <hr class="hr2" size="2" width="250px" color="690BOE">
+                <div class="penjelasan-panjang-weapon">
+                    A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.
+                </div>
+            </div>
+        </div>
+
+        <div class="sosmed">
+            <img src="Assets/home/dc_logo.png" alt="Discord">
+            <img src="Assets/home/ig_logo-removebg-preview.png" alt="Instagram">
+            <img src="Assets/home/twitter_logo.png" alt="Twitter">
+            <img src="" alt="">
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h1>
+                <img src="Assets/footer/logo_genshin.png" alt="Logo Genshin">
+            </h1>
+            <br>
+            <br>
+            <p class="privacy">
+                Privacy Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms of Service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us
+            </p>
+            <br>
+            <br>
+            <img class = "alenJelek" src="Assets/footer/pegi_3.png" alt="Pegi 3">
+            <br>
+            <br>
+            <p>
+                “Playstation Family Mark, “ “PS5 Logo” are registered trademarks or trademarks of Sony Interactive Entertainment Inc.
+                <br> Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks and/or registered trademarks of Epic Games. All other trademarks are the
+                <br> property of their respective owners.
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="bottom">
+            <img class="hoyovers" src="Assets/footer/hoyoverse.png" alt="Hoyoverse">
+            <p>
+                Copyright COGNOSPHERE. All right reserved.
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+
+<!-- js link -->
+<script type="text/javascript" src="script.js"></script>
+
+<script type="text/javascript">
+//parallax animation
+let layer_1 = document.getElementsByClassName('layer-1')
+let layer_2 = document.getElementsByClassName('layer-2')
+
+window.onscroll = function(){
+    let Y = window.scrollY;
+
+    for (let i = 0; i < layer_1.length; i++) {
+        layer_1[i].style.transform = 'translateY('+ 0 +'px)'
+        layer_2[i].style.transform = 'translateY('+ Y/15.5 +'px)'
+    }
+}
+
+</script>
+
+</html>

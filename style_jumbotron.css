@@ -1,0 +1,339 @@
+.jumbotron{
+    background-image: url(Assets/home/home_atas.webp);
+    z-index: 100;
+    width: 100%;
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: flex;
+    background-position: 70%;
+    position: absolute;
+    top: 0px;
+    transition: all .50s ease;
+}
+
+.jumbotron .download{
+    position: flex;
+    background-image: url(Assets/home/download.webp);
+    height: 30vh;
+    background-repeat: no-repeat;
+    margin-left: 83px;
+    background-size: auto;
+    background-position: left 35px;
+    transition: all .50s ease;
+}
+
+.jumbotron .download a{
+    position: absolute;
+    justify-content: center;
+    padding-left: 48px;
+    padding-top: 66px;
+    color: white;
+    font-size: 28px;
+    font-family: 'Aclonica', sans-serif; 
+    /* transition: all .50s ease; */
+}
+.jumbotron .judul{
+    position: flex;
+    color:  antiquewhite;
+    padding-top: 10%;
+    padding-left: 100px;
+    padding-bottom: 80px;
+    font-size: 70px;
+    font-family: 'Inria Sans', sans-serif;
+    transition: all .50s ease;
+    text-shadow: 10px 12px 15px black;
+    /* transition: all .50s ease; */
+}
+
+@media screen and (max-width: 450px) {
+    .jumbotron .judul{
+        padding-top: 50% !important;
+        font-size: 30px !important;
+        padding-left: 20px !important;
+    }
+
+    .jumbotron .download{
+        position: flex;
+        background-image: url(Assets/home/download.webp);
+        height: 30vh;
+        background-repeat: no-repeat;
+        margin-left: 10px !important;
+        margin-top: -10%;
+        background-size: 180px !important;
+        background-position: left 35px;
+        transition: all .50s ease;
+    }
+
+    .jumbotron .download a{
+        position: absolute;
+        justify-content: center;
+        padding-left: 30px !important;
+        padding-top: 52px;
+        color: white;
+        font-size: 15px;
+        font-family: 'Aclonica', sans-serif; 
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 450px){
+    .jumbotron .judul{
+        padding-top: 20% !important;
+        font-size: 40px !important;
+        padding-left: 30px !important;
+    }
+
+    .jumbotron .download{
+        position: flex;
+        background-image: url(Assets/home/download.webp);
+        height: 30vh;
+        background-repeat: no-repeat;
+        margin-left: 15px !important;
+        margin-top: -10%;
+        background-size: 221px !important;
+        background-position: left 35px;
+        transition: all .50s ease;
+    }
+
+    .jumbotron .download a{
+        position: absolute;
+        justify-content: center;
+        padding-left: 31px !important;
+        padding-top: 56px;
+        color: white;
+        font-size: 20px;
+        font-family: 'Aclonica', sans-serif; 
+    }
+}
+
+@media screen and (max-width: 800px){
+    .jumbotron .judul{
+        padding-top: 15%;
+        padding-left: 50px;
+        font-size: 50px;
+        transition: all 0.50s ease;
+    }
+
+    .jumbotron .download{
+        position: flex;
+        background-image: url(Assets/home/download.webp);
+        height: 30vh;
+        background-repeat: no-repeat;
+        margin-left: 35px;
+        margin-top: -10%;
+        background-size: auto;
+        background-position: left 35px;
+        transition: all .50s ease;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .jumbotron .judul{
+        padding-top: 15%;
+        font-size: 50px;
+        transition: all 0.50s ease;
+    }
+}
+
+/* @media screen and (max-width: 1200px){
+   .jumbotron .judul{
+        transition: all .50s ease;
+        font-size: 60px;
+        padding-top: 200px;
+        padding-left: 40px;
+   }
+   
+   .jumbotron .download{
+    position: flex;
+    background-image: url(Assets/home/download.webp);
+    height: 20vh;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    background-size: auto;
+    background-position: left 35px;
+    transition: all .50s ease;
+    }
+
+.jumbotron .download a{
+    position: absolute;
+    justify-content: center;
+    padding-left: 48px;
+    padding-top: 66px;
+    color: white;
+    font-size: 28px;
+    font-family: 'Aclonica', sans-serif; 
+}
+   
+}
+
+@media screen and (min-width: 1200px) {
+    .jumbotron .judul{
+        transition: all .50s ease;
+        font-size: 60px;
+        padding-top: 250px;
+        padding-left: 5%;
+   }
+   
+   .jumbotron .download{
+    position: flex;
+    background-image: url(Assets/home/download.webp);
+    height: 20vh;
+    background-repeat: no-repeat;
+    margin-left: 4%;
+    background-size: auto;
+    background-position: left 35px;
+    transition: all .50s ease;
+    }
+
+    .jumbotron .download a{
+        position: absolute;
+        justify-content: center;
+        padding-left: 48px;
+        padding-top: 66px;
+        color: white;
+        font-size: 28px;
+        font-family: 'Aclonica', sans-serif; 
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .jumbotron .judul{
+        transition: all .50s ease;
+        font-size: 80px;
+        padding-top: 300px;
+        padding-left: 5%;
+   }
+   
+   .jumbotron .download{
+    position: flex;
+    background-image: url(Assets/home/download.webp);
+    height: 20vh;
+    background-repeat: no-repeat;
+    margin-left: 4%;
+    background-size: auto;
+    background-position: left 35px;
+    transition: all .50s ease;
+    }
+
+    .jumbotron .download a{
+        position: absolute;
+        justify-content: center;
+        padding-left: 48px;
+        padding-top: 66px;
+        color: white;
+        font-size: 28px;
+        font-family: 'Aclonica', sans-serif; 
+    }
+}
+
+@media screen and (min-width: 1560px){
+    .jumbotron{
+        background-image: url(Assets/home/home_atas.webp);
+        z-index: 100;
+        width: 100%;
+        height: 110vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: flex;
+        background-position: 70%;
+        position: absolute;
+        /* top: 1px; */
+        /* transition: all .50s ease; */
+    /* } */
+/* } */
+
+@media screen and (min-width: 1700px){
+    .jumbotron{
+        background-image: url(Assets/home/home_atas.webp);
+        z-index: 100;
+        width: 100%;
+        height: 120vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: flex;
+        background-position: 70%;
+        position: absolute;
+        /* top: 1px; */
+        transition: all .50s ease;
+    }
+}
+
+@media screen and (min-width: 1850px){
+    .jumbotron{
+        background-image: url(Assets/home/home_atas.webp);
+        z-index: 100;
+        width: 100%;
+        height: 130vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: flex;
+        background-position: 70%;
+        position: absolute;
+        /* top: 1px; */
+        transition: all .50s ease;
+    }
+}
+
+@media screen and (min-width: 2030px){
+    .jumbotron{
+        background-image: url(Assets/home/home_atas.webp);
+        z-index: 100;
+        width: 100%;
+        height: 140vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: flex;
+        background-position: 70%;
+        position: absolute;
+        /* top: 1px; */
+        transition: all .50s ease;
+    }
+}
+
+@media screen and (min-width: 2170px){
+    .jumbotron{
+        background-image: url(Assets/home/home_atas.webp);
+        z-index: 100;
+        width: 100%;
+        height: 150vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: flex;
+        background-position: 70%;
+        position: absolute;
+        /* top: 1px; */
+        transition: all .50s ease;
+    }
+}
+
+/* min width 2300 .jumbotron height 150vh  */
+
+@media screen and (min-width: 2300px){
+    .jumbotron{
+        background-image: url(Assets/home/home_atas.webp);
+        z-index: 100;
+        width: 100%;
+        height: 150vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: flex;
+        background-position: 70%;
+        position: absolute;
+        /* top: 1px; */
+        transition: all .50s ease;
+    }
+
+    .jumbotron .judul{
+        transition: all .50s ease;
+        font-size: 100px;
+        padding-top: 300px;
+        padding-left: 5%;
+   }
+}

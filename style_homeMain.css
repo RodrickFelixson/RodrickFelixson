@@ -1,0 +1,1260 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(Assets/home/home_body.webp);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    position: relative;
+    width: 100%;
+    /* height: 900%; */
+    margin-top: 400px;
+    transition: all .50s ease;
+    /* margin-bottom: 500px; */
+}
+
+.main .new-character{
+    margin-bottom: 30%;
+}
+
+.main .new-character .judul1{
+    padding-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkcyan;
+    font-size: 70px;
+    font-family: 'Aclonica', sans-serif;
+    transition: all .50s ease;
+}
+
+.main .new-character img{
+    z-index: 2;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    height: 100%;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; */
+}
+
+.main .new-character .layer-2{
+    position: relative;
+    top: auto;
+    margin-top: -1150px;
+    font-family: 'Inria Sans', sans-serif;
+    width: 100%;
+    opacity: 20%;
+    font-size: 280px;
+    color: transparent;
+    -webkit-text-stroke: 12px black;
+    transform: translateY(20px);
+    transition: all .50s ease;
+    overflow: hidden;
+}
+
+.main .new-character .penjelasan-character .nama{
+    position: relative;
+    display: flex;
+    padding-top: 35%;
+    transition: all .50s ease;
+}
+
+.main .new-character .penjelasan-character .nama img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 0;
+    padding-top: 1%;
+    margin-left: 5%;
+    width: 18vh;
+    height: 20vh;
+    transition: all .50s ease;
+    /* padding: 0; */
+}
+
+.main .new-character .penjelasan-character .nama h1{
+    padding-top: 10%;
+    font-size: 50px;
+    font-family: 'Aclonica', sans-serif;
+    transition: all .50s ease;
+}
+
+.main .new-character .penjelasan-character .nama .nama2 img{
+    width: 80%;
+    height: 6vh;
+    margin-left: 0%;
+    margin-top: -2%;
+    transition: all .50s ease;
+}
+
+.main hr{
+    margin-top: 1%;
+    margin-left: 6%;
+}
+
+.main .new-character .penjelasan-panjang{
+    margin-left: 6%;
+    margin-top: 3%;
+    font-size: 30px;
+    width: 70%;
+}
+
+.main .new-weapon .judul2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkcyan;
+    font-size: 70px;
+    font-family: 'Aclonica', sans-serif;
+    margin-bottom: 50px;
+    
+}
+
+.new-weapon .layer-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.new-weapon .layer-2{
+    position: relative;
+    top: auto;
+    margin-top: -1100px;
+    margin-bottom: 10%;
+    font-family: 'Inria Sans', sans-serif;
+    width: 100%;
+    opacity: 20%;
+    font-size: 300px;
+    color: transparent;
+    -webkit-text-stroke: 12px black;
+    transform: translateY(20px);
+    transition: all .50s ease;
+    overflow: hidden;
+}
+
+.main .new-weapon .penjelasan-weapon .nama-weapon{
+    position: relative;
+    display: flex;
+    padding-top: 20%;
+    transition: all .50s ease;
+}
+
+.main .new-weapon .penjelasan-weapon .nama-weapon img{
+    position: relative;
+    margin-left: 5%;
+    width: 100px;
+    height: 100%;
+    justify-content: center;
+}
+
+.main .new-weapon .penjelasan-weapon .nama-weapon h1{
+    padding-top: 1%;
+    font-size: 50px;
+    font-family: 'Aclonica', sans-serif;
+    transition: all .50s ease;
+}
+
+.main .new-weapon .penjelasan-weapon .nama-weapon .nama-weapon2 img{
+    width: 30%;
+    height: 6vh;
+    margin-left: 0%;
+    transition: all .50s ease;
+}
+
+.main .new-weapon .penjelasan-panjang-weapon{
+    margin-left: 6%;
+    margin-top: 3%;
+    font-size: 30px;
+    width: 70%;
+    transition: all .50s ease;
+}
+
+.hr2{
+    width: 590px;
+}
+
+.main .sosmed{
+    margin-top: 5%;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+}
+
+@media  screen and (max-width: 400px) {
+    .main .new-character .judul1{
+        padding-top: 250px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 30px !important;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -450px !important;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 150px !important;
+        color: transparent;
+        -webkit-text-stroke: 6px black !important;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+    .main .new-character .penjelasan-character .nama img{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        /* margin-top: 10px; */
+        padding-top: 1%;
+        margin-left: 5%;
+        width: 8vh;
+        height: 10vh;
+        transition: all .50s ease;
+        /* padding: 0; */
+    }
+
+    .main .new-character .penjelasan-character .nama h1{
+        padding-top: 3%;
+        font-size: 30px;
+        font-family: 'Aclonica', sans-serif;
+    }    
+
+    .main .new-character .penjelasan-character .nama .nama2 img{
+        width: 50%;
+        height: 3vh;
+        margin-left: 0%;
+        margin-top: -2%;
+        transition: all .50s ease;
+    }
+
+    .hr1{
+        width: 135px;
+        transition: all 0.50s ease;
+    }
+
+    .main .new-character .penjelasan-panjang{
+        font-size: 15px;
+    }
+
+    .main .new-weapon .judul2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 30px !important;
+        font-family: 'Aclonica', sans-serif;
+        margin-bottom: 50px;
+    }
+    
+    .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -450px !important;
+        margin-bottom: 10%;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 150px !important;
+        color: transparent;
+        -webkit-text-stroke: 6px black !important;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon h1{
+        padding-top: 4%;
+        font-size: 20px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon img{
+        position: relative;
+        margin-left: 5%;
+        padding-top: 1%;
+        width: 50px;
+        height: 10vh;
+        justify-content: center;
+        transition: all .50s ease;
+    }  
+
+    .hr2{
+        width: 245px;
+        transition: all 0.50s ease;
+    }
+
+    .main .new-weapon .penjelasan-panjang-weapon{
+        font-size: 15px;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon .nama-weapon2 img{
+        width: 25%;
+        height: 3vh;
+        margin-left: 0%;
+        padding-top: 0;
+        transition: all .50s ease;
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 400px){
+
+    .main .new-character .judul1{
+        padding-top: 250px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 30px !important;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -500px !important;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 150px !important;
+        color: transparent;
+        -webkit-text-stroke: 6px black !important;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+    .main .new-character .penjelasan-character .nama img{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        /* margin-top: 10px; */
+        padding-top: 1%;
+        margin-left: 5%;
+        width: 8vh;
+        height: 10vh;
+        transition: all .50s ease;
+        /* padding: 0; */
+    }
+
+    .main .new-character .penjelasan-character .nama h1{
+        padding-top: 3%;
+        font-size: 30px;
+        font-family: 'Aclonica', sans-serif;
+    }    
+
+    .main .new-character .penjelasan-character .nama .nama2 img{
+        width: 50%;
+        height: 3vh;
+        margin-left: 0%;
+        margin-top: -2%;
+        transition: all .50s ease;
+    }
+
+    .hr1{
+        width: 135px;
+        transition: all 0.50s ease;
+    }
+
+    .main .new-character .penjelasan-panjang{
+        font-size: 15px;
+    }
+
+    .main .new-weapon .judul2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 30px !important;
+        font-family: 'Aclonica', sans-serif;
+        margin-bottom: 50px;
+    }
+    
+    .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -450px !important;
+        margin-bottom: 10%;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 150px !important;
+        color: transparent;
+        -webkit-text-stroke: 6px black !important;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon h1{
+        padding-top: 4%;
+        font-size: 20px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon img{
+        position: relative;
+        margin-left: 5%;
+        padding-top: 1%;
+        width: 50px;
+        height: 10vh;
+        justify-content: center;
+        transition: all .50s ease;
+    }  
+
+    .hr2{
+        width: 245px;
+        transition: all 0.50s ease;
+    }
+
+    .main .new-weapon .penjelasan-panjang-weapon{
+        font-size: 15px;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon .nama-weapon2 img{
+        width: 25%;
+        height: 3vh;
+        margin-left: 0%;
+        padding-top: 0;
+        transition: all .50s ease;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px){
+    .main .new-character .judul1{
+        padding-top: 300px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 50px !important;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -600px !important;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 200px !important;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+    .main .new-character .penjelasan-character .nama img{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        /* margin-top: 10px; */
+        padding-top: 1%;
+        margin-left: 5%;
+        width: 12vh;
+        height: 15vh;
+        transition: all .50s ease;
+        /* padding: 0; */
+    }
+
+    .main .new-character .penjelasan-character .nama h1{
+        padding-top: 3%;
+        font-size: 40px;
+        font-family: 'Aclonica', sans-serif;
+    }    
+
+    .main .new-character .penjelasan-character .nama .nama2 img{
+        width: 70%;
+        height: 5vh;
+        margin-left: 0%;
+        margin-top: -2%;
+        transition: all .50s ease;
+    }
+
+    .hr1{
+        width: 190px;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .penjelasan-panjang{
+        margin-left: 6%;
+        margin-top: 3%;
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .main .new-weapon .judul2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 50px !important;
+        font-family: 'Aclonica', sans-serif;
+        margin-bottom: 50px;
+    }    
+
+    .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -600px !important;
+        margin-bottom: 10%;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 200px !important;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon h1{
+        padding-top: 1%;
+        font-size: 30px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon img{
+        position: relative;
+        margin-left: 5%;
+        padding-top: 1%;
+        width: 60px;
+        height: 13vh;
+        justify-content: center;
+        transition: all .50s ease;
+    }  
+
+    .hr2{
+        width: 350px;
+        transition: all 0.50s ease;
+    }
+
+    .main .new-weapon .penjelasan-panjang-weapon{
+        margin-left: 6%;
+        margin-top: 3%;
+        font-size: 20px;
+        width: 70%;
+        transition: all .50s ease;
+    }
+}
+
+@media screen and (max-width: 780px) and (min-width: 600px){
+    .main .new-character .judul1{
+        padding-top: 300px !important;
+    }
+
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -700px !important;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 200px !important;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+    .main .new-character .penjelasan-character .nama img{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        /* margin-top: 10px; */
+        padding-top: 1%;
+        margin-left: 5%;
+        width: 12vh;
+        height: 15vh;
+        transition: all .50s ease;
+        /* padding: 0; */
+    }
+
+    .main .new-character .penjelasan-character .nama{
+        position: relative;
+        display: flex;
+        /* padding-top: 15% !important; */
+        transition: all .50s ease;
+    }
+
+    .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -700px !important;
+        margin-bottom: 10%;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 200px !important;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+    .hr2{
+        width: 450px;
+        transition: all .50s ease;
+    }
+
+    .hr1{
+        width: 195px;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .penjelasan-character .nama h1{
+        padding-top: 10%;
+        font-size: 40px;
+        font-family: 'Aclonica', sans-serif;
+    }
+
+    .main .new-character .penjelasan-panjang{
+        margin-left: 6%;
+        margin-top: 3%;
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon h1{
+        padding-top: 1%;
+        font-size: 40px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon img{
+        position: relative;
+        margin-left: 5%;
+        padding-top: 1%;
+        width: 60px;
+        height: 13vh;
+        justify-content: center;
+        transition: all .50s ease;
+    }    
+
+    .main .new-character .penjelasan-character .nama .nama2 img{
+        width: 70%;
+        height: 5vh;
+        margin-left: 0%;
+        margin-top: -2%;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon .nama-weapon2 img{
+        width: 25%;
+        height: 5vh;
+        margin-left: 0%;
+        padding-top: 0;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .penjelasan-panjang-weapon{
+        margin-left: 6%;
+        margin-top: 3%;
+        font-size: 20px;
+        width: 70%;
+        transition: all .50s ease;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .main .new-character .judul1{
+        padding-top: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 70px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1000px;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 300px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+    .main .new-character .penjelasan-character .nama{
+        position: relative;
+        display: flex;
+        padding-top: 30%;
+        transition: all .50s ease;
+    }
+
+    .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1000px;
+        margin-bottom: 10%;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 300px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+}
+
+/* @media screen and (min-width: 900px) {
+.main{
+    width: 100%;
+        height: 380vh;
+        margin-top: 400px;
+        transition: all .50s ease;
+}
+
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -850px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 215px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -800px;
+        margin-bottom: 15%;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 220px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+}
+
+@media  screen and (min-width: 1000px) {
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -950px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 215px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -900px;
+        margin-bottom: 15%;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 220px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+} */
+
+/* @media  screen and (min-width: 1100px) {
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1150px;
+        margin-bottom: -5%;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 300px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+    }
+
+    .main .new-character .judul1{
+        padding-top: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 70px;
+        font-family: 'Aclonica', sans-serif;
+    }
+}
+
+@media  screen and (min-width: 1200px) {
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1200px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 280px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+    }
+
+    .main .new-character .judul1{
+        padding-top: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 70px;
+        font-family: 'Aclonica', sans-serif;
+    }
+
+    .main{
+        width: 100%;
+        height: 450vh;
+        margin-top: 400px;
+        transition: all .50s ease;
+    }
+
+
+    .main .new-character .penjelasan-character .nama{
+        position: relative;
+        display: flex;
+        padding-top: 45%;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1000px;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 280px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+}
+
+@media  screen and (min-width: 1320px) {
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1350px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 300px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1100px;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 280px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+} */
+
+/* @media  screen and (min-width: 1420px) {
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1400px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 320px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1250px;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 320px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+    .main{
+        width: 100%;
+        height: 500vh;
+        margin-top: 400px;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .penjelasan-panjang{
+        font-size: 40px;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .penjelasan-panjang-weapon{
+        margin-left: 6%;
+        margin-top: 3%;
+        font-size: 40px;
+        width: 70%;
+        transition: all .50s ease;
+    }
+
+    
+}
+
+@media  screen and (min-width: 1500px) {
+    .main .new-character .penjelasan-character .nama{
+        position: relative;
+        display: flex;
+        padding-top: 35%;
+        transition: all .50s ease;
+    }
+    
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1500px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 400px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+    }
+
+    .main{
+        width: 100%;
+        height: 550vh;
+        margin-top: 400px;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .judul1{
+        padding-top: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 70px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1400px;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 400px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+
+}
+
+@media  screen and (min-width: 1600px) {
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1550px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 400px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+    }
+
+    .main .new-character .judul1{
+        padding-top: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 70px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+}
+
+@media  screen and (min-width: 1700px) {
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1600px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 400px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+    }
+
+    .main{
+        width: 100%;
+        height: 600vh;
+        margin-top: 400px;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .judul1{
+        padding-top: 880px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 70px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+}
+
+@media  screen and (min-width: 1800px) {
+    .main .new-character .judul1{
+        padding-top: 950px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 70px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1850px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 500px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+    }
+
+    .main .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1650px;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 500px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+} */
+
+/* @media  screen and (min-width: 1900px) {
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1900px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 500px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+    }
+
+    .main{
+        width: 100%;
+        height: 650vh;
+        margin-top: 400px;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .penjelasan-character .nama h1{
+        padding-top: 0%;
+        font-size: 100px;
+        font-family: 'Aclonica', sans-serif;
+    }
+
+    .main .new-character .penjelasan-character .nama .nama2 img{
+        width: 70%;
+        height: 5vh;
+        margin-left: 0%;
+    }
+
+    .hr1{
+        width: 470px;
+    }
+
+    .main .new-character .penjelasan-panjang{
+        font-size: 60px;
+        transition: all .50s ease;
+    }
+
+    .main .new-character .penjelasan-character .nama img{
+        position: relative;
+        margin-top: 0;
+        margin-left: 5%;
+        width: 150px;
+        height: 15vh;
+        justify-content: center;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon{
+        position: relative;
+        display: flex;
+        padding-top: 10%;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon .nama-weapon2 h1{
+        font-size: 100px;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .penjelasan-weapon .nama-weapon .nama-weapon2 img{
+        font-size: 100px;
+        width: 30%px;
+        height: 30%;
+    }
+} */
+/* 
+@media screen and (min-width: 2000px){
+    .main .new-character .judul1{
+        padding-top: 1070px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 70px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+}
+
+@media screen and (min-width: 2100px){
+    .main{
+        width: 100%;
+        height: 700vh;
+        margin-top: 400px;
+        transition: all .50s ease;
+    }
+} */
+
+/* @media  screen and (min-width: 2200px) {
+    .main .new-character .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -2200px;
+        font-family: 'Inria Sans', sans-serif;
+        opacity: 20%;
+        font-size: 600px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+    }
+
+    .main .new-character .judul1{
+        padding-top: 1170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkcyan;
+        font-size: 70px;
+        font-family: 'Aclonica', sans-serif;
+        transition: all .50s ease;
+    }
+
+    .main .new-weapon .layer-2{
+        position: relative;
+        top: auto;
+        margin-top: -1750px;
+        font-family: 'Inria Sans', sans-serif;
+        width: 100%;
+        opacity: 20%;
+        font-size: 500px;
+        color: transparent;
+        -webkit-text-stroke: 12px black;
+        transform: translateY(20px);
+        transition: all .50s ease;
+        overflow: hidden;
+    }
+} */
+
